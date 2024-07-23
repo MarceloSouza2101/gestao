@@ -37,10 +37,10 @@ Para configurar o Java em seu ambiente, siga as instruções abaixo:
 
 - **Ambiente Linux**
   - **JDK 17**
-    1. Caso não exista, crie a pasta `/opt/dev/java`.
-    2. Faça o download do JDK 17 utilizado nos projetos clicando [aqui](https://drive.google.com/drive/u/1/folders/1J1tn8zp2_pz2GJeDvkThR9_8e3DaOXNJ).
-    3. Descompacte o arquivo baixado na pasta `/opt/dev/java`, resultando em `/opt/dev/java/jdk-17.0.2`.
-    4. Confirme a versão executando o comando:
+    - Caso não exista, crie a pasta `/opt/dev/java`.
+    - Faça o download do JDK 17 utilizado nos projetos clicando [aqui]([https://drive.google.com/drive/u/1/folders/1J1tn8zp2_pz2GJeDvkThR9_8e3DaOXNJ](https://drive.google.com/file/d/16X7oToMl349z3KiPh1vCwUnXv7RM5K6i/view?usp=drive_link).
+    - Descompacte o arquivo baixado na pasta `/opt/dev/java`, resultando em `/opt/dev/java/jdk-17.0.2`.
+    - Confirme a versão executando o comando:
        ```bash
        /opt/dev/java/jdk-17.0.2/bin/java --version
        ```
@@ -51,7 +51,7 @@ Para configurar o Maven em seu ambiente, siga as instruções abaixo:
 
 - **Ambiente Linux**
   1. Caso não exista, crie o diretório `/opt/dev/maven`.
-  2. Baixe o Maven customizado clicando [aqui](https://drive.google.com/drive/u/1/folders/1J1tn8zp2_pz2GJeDvkThR9_8e3DaOXNJ).
+  2. Baixe o Maven customizado clicando [aqui]([https://drive.google.com/drive/u/1/folders/1J1tn8zp2_pz2GJeDvkThR9_8e3DaOXNJ](https://drive.google.com/file/d/1fhkRqmmqLgI1SeocFluXgkeqjunpU9b_/view?usp=drive_link).
   3. Descompacte o arquivo baixado no diretório `/opt/dev/maven`, resultando em: `/opt/dev/maven/apache-maven-3.8.4`.
   4. Confirme a versão executando o comando:
      ```bash
@@ -64,11 +64,11 @@ Para baixar a IDE Spring Tool Suite customizada em seu ambiente de desenvolvimen
 
 - **Ambiente Linux**
   1. Crie o diretório `/opt/dev/tools` se ainda não existir.
-  2. Baixe a IDE customizada clicando [aqui](https://drive.google.com/drive/u/1/folders/1J1tn8zp2_pz2GJeDvkThR9_8e3DaOXNJ).
+  2. Baixe a IDE customizada clicando [aqui](https://drive.google.com/file/d/1agIkGtzi_LIZpdugn5_PU9ZbPPQAFH5-/view?usp=drive_link).
   3. Descompacte o arquivo baixado no diretório `/opt/dev/tools`, resultando em: `/opt/dev/tools/sts`.
   4. Em seguida, baixe o Workspace configurado para uso em conjunto com a IDE:
      - Caso não exista, crie o diretório `/opt/dev/workspaces`.
-     - Faça o download do Workspace customizado clicando [aqui](https://drive.google.com/drive/u/1/folders/1J1tn8zp2_pz2GJeDvkThR9_8e3DaOXNJ).
+     - Faça o download do Workspace customizado clicando [aqui]([https://drive.google.com/drive/u/1/folders/1J1tn8zp2_pz2GJeDvkThR9_8e3DaOXNJ](https://drive.google.com/file/d/1ngyAcWOuhfM8nmYgqc2DH8fsgUX81OPL/view?usp=drive_link).
      - Extraia o conteúdo do arquivo baixado em `/opt/dev/workspaces`, ficando assim: `/opt/dev/workspaces/gestao`.
 
 **DBeaver**
@@ -77,11 +77,11 @@ O DBeaver é uma ferramenta usada para executar instruções SQL nos bancos de d
 
 - **Ambiente Linux**
   1. Crie o diretório `/opt/dev/tools`, se ainda não existir.
-  2. Baixe a versão customizada do DBeaver clicando [aqui](https://drive.google.com/drive/u/1/folders/1J1tn8zp2_pz2GJeDvkThR9_8e3DaOXNJ).
+  2. Baixe a versão customizada do DBeaver clicando [aqui](https://drive.google.com/file/d/1HL7pHzxcUgiSJ_w2-McjQLugseDD5qs8/view?usp=drive_link).
   3. Descompacte o arquivo baixado no diretório `/opt/dev/tools`, resultando em: `/opt/dev/tools/dbeaver`.
   4. Em seguida, faça o download do Workspace configurado com as conexões usadas nas aplicações em desenvolvimento:
      - Caso o diretório `/opt/dev/workspaces` não exista, crie-o.
-     - Baixe o Workspace customizado clicando [aqui](https://drive.google.com/drive/u/1/folders/1J1tn8zp2_pz2GJeDvkThR9_8e3DaOXNJ).
+     - Baixe o Workspace customizado clicando [aqui](https://drive.google.com/file/d/1Pzz9B_gUPROedFo_-AxftB6trNh-9lQK/view?usp=drive_link).
      - Extraia o conteúdo do arquivo baixado em `/opt/dev/workspaces`, resultando em: `/opt/dev/workspaces/dbeaver-gestao`.
 
 Com essas configurações, seu ambiente estará pronto para executar a aplicação de gestão de produtos.
