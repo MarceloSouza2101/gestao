@@ -48,7 +48,7 @@ Para configurar o Maven em seu ambiente, siga as instruções abaixo:
 
 - **Ambiente Linux**
   - Caso não exista, crie o diretório `/opt/dev/maven`.
-  - Baixe o Maven customizado clicando [aqui](https://drive.google.com/file/d/1fhkRqmmqLgI1SeocFluXgkeqjunpU9b_/view?usp=drive_link).
+  - Baixe o Maven customizado clicando [aqui](https://drive.google.com/file/d/1O2EDI9ar9Yi6jL_XEG-O3HlEsTz_t3Zw/view?usp=drive_link).
   - Descompacte o arquivo baixado no diretório `/opt/dev/maven`, resultando em: `/opt/dev/maven/apache-maven-3.8.4`.
   - Confirme a versão executando o comando:
      ```bash
@@ -65,8 +65,7 @@ Para baixar a IDE Spring Tool Suite customizada em seu ambiente de desenvolvimen
   - Descompacte o arquivo baixado no diretório `/opt/dev/tools`, resultando em: `/opt/dev/tools/sts`.
   - Em seguida, baixe o Workspace configurado para uso em conjunto com a IDE:
      - Caso não exista, crie o diretório `/opt/dev/workspaces`.
-     - Faça o download do Workspace customizado clicando [aqui](https://drive.google.com/file/d/1V_zIG43EzpFXDbtUcltTKcVTD7SiMgXy/view?usp=drive_link).
-     - Extraia o conteúdo do arquivo baixado em `/opt/dev/workspaces`, ficando assim: `/opt/dev/workspaces/gestao`.
+     - Cria uma workspaces e importa o projeto com existing maven project.
 
 **DBeaver**
 
@@ -78,7 +77,8 @@ O DBeaver é uma ferramenta usada para executar instruções SQL nos bancos de d
   - Descompacte o arquivo baixado no diretório `/opt/dev/tools`, resultando em: `/opt/dev/tools/dbeaver`.
   - Em seguida, faça o download do Workspace configurado com as conexões usadas nas aplicações em desenvolvimento:
      - Caso o diretório `/opt/dev/workspaces` não exista, crie-o.
-     - Baixe o Workspace customizado clicando [aqui](https://drive.google.com/file/d/1Pzz9B_gUPROedFo_-AxftB6trNh-9lQK/view?usp=drive_link).
+     - Baixe o Workspace customizado clicando [aqui](https://drive.google.com/file/d/1M25HhFTNh1-VaX3o2cjl9dEoVGAErSUL/view?usp=drive_link).
      - Extraia o conteúdo do arquivo baixado em `/opt/dev/workspaces`, resultando em: `/opt/dev/workspaces/dbeaver-gestao`.
+     - Caso não apareça o database gestão com os banco (gestao, gestao_teste) entrar na pasta e rodar os script, tanto do database quanto para popular as categorias.
 
 Com essas configurações, seu ambiente estará pronto para executar a aplicação de gestão de produtos.

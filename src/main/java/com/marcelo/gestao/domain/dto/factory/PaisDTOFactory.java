@@ -25,5 +25,18 @@ public class PaisDTOFactory {
 
 		return null;
 	}
+	
+	public static PaisDTO converterParaDTO(PaisFonteDTO pais) {
 
+		return PaisDTO.builder()
+				.codigo(pais.getCcn3())
+				.nome(pais.getTranslations().getPor().getCommon())
+				.build();
+	}
+	
+	public static List<PaisDTO> converterParaLista(List<PaisFonteDTO> paises) {
+
+		return paises.stream().map(PaisDTOFactory::converterParaDTO).toList();
+	}
+	
 }
