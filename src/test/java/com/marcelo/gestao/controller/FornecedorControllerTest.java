@@ -153,7 +153,7 @@ class FornecedorControllerTest extends AbstractController{
 	
 	@Test
 	@Order(6)
-	void NaoEncontradoForncedorPorId() {
+	void naoEncontradoForncedorPorId() {
 								
 		HttpHeaders headers = getHeaders();
 		HttpEntity<Void> entity = new HttpEntity<Void>(headers);		

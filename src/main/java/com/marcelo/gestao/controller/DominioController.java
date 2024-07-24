@@ -33,8 +33,8 @@ public class DominioController {
 	
 	@GetMapping("/categorias")
 	@Operation( 
-			summary = "Recupera os categorias", 
-			description = "Permite ao usuário consultar todos categorias.")
+			summary = "Recupera as categorias", 
+			description = "Permite ao usuário consultar todas categorias.")
 	public List<CategoriaDTO> buscarCategorias() {
 
 		return dominioService.buscarCategorias();
